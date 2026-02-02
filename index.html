@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект PLASMIAC - КП-06 Дунав/5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        }
+        nav a {
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #2563eb;
+        }
+        .logo-container {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+        }
+        .logo-container img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-gray-50 text-gray-800">
+
+        <!-- Hero Section -->
+        <div class="relative h-[60vh] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1581092160607-ee67f7c4c7c8')">
+            <div class="absolute inset-0 bg-black/60 flex items-center justify-center">
+                <div class="text-center text-white px-6">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                        Перовскити и нови нискотемпературни A3B5 полупроводникови материали: изследване и усъвършенствано характеризиране
+                    </h1>
+                    <p class="text-4x1  mb-1">Научноизследователски проект КП-06 Дунав/5 /11.07.2025 (НИС 2987)</p>
+                    <p class="text-4x1  mb-1">финансиран от Фонд „Научни изследвания", МОН</p>
+                    <p class="text-4x1  mb-1">„Многостранен конкурс за научно и технологично сътрудничество в Дунавския регион - 2024"</p>                    
+                    <p class="text-4x1  mb-1">Период: 11.07.2025 г. – 11.07.2027 г.</p>
+                    <p class="text-4x1  ">Бюджет за СУ: 49 200 лв.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="bg-white shadow sticky top-0 z-10">
+            <ul class="max-w-6xl mx-auto flex justify-center space-x-6 p-4 font-semibold">
+                <li><a href="#summary">Резюме</a></li>
+                <li><a href="#team">Участници</a></li>
+                <li><a href="#packages">Работни пакети</a></li>
+                <li><a href="#results">Резултати</a></li>
+                <li><a href="#news">Новини</a></li>
+            </ul>
+        </nav>
+
+        <!-- Summary -->
+        <section id="summary" class="max-w-6xl mx-auto p-6">
+            <div class="card">
+                <div class="p-6 space-y-4">
+                    <h2 class="text-2xl font-bold">Резюме на проекта</h2>
+                    <p>
+                        Преходът към устойчива енергия изисква иновативни решения в областта на технологиите за възобновяема енергия. Високоефективните фотоволтаични (PV) устройства са в челните редици на това усилие, особено благодарение на тандемните структури. Сред ключовите материали, които се разработват за фотоволтаични устройства от следващо поколение, са перовскитите и тънките III-V филми, като и двата материала показват изключителни оптоелектронни свойства и обещават значително подобряване работата на бъдещите многопреходни слънчеви клетки.
+                    </p>
+                    <p>
+                        Въпреки големия си потенциал, всеки от тези материали е изправен пред критични технологични предизвикателства. Филмите от III-V съединения, известни със своята превъзходна ефективност и здравина, все още не са рентабилни и остават несъвместими с широкомащабно наземно внедряване, предвид високата цена на III-V подложките. Сред предложените стратегии за намаляване на разходите някои изследователски екипи се фокусират върху епитаксиален растеж на III-V материали върху по-достъпни подложки като силиций.
+                    </p>
+                    <p>
+                        Междувременно перовскитите отбелязаха бърз напредък и впечатляващо повишаване на ефективността, но проблеми, свързани със стабилността, контрола на дефектите и миграцията на йони, продължават да ограничават тяхното търговско приложение.
+                    </p>
+                    <p>
+                        Проектът обединява допълващата се експертиза на три водещи европейски лаборатории: Laboratoire de Génie électrique et électronique de Paris (GeePs)– фотолуминесценция, Софийски университет "Св.Климент Охридски" – Повърхностно фотонапрежение (SPV) и Института по физика на Чешката академия на науките (FZU) – Фототермична дефлекторна спектроскопия (PDS). Чрез комбиниране на тези техники проектът цели многостранно разбиране на свойствата на нови III-V филми и перовскитни материали.
+                    </p>
+                    <p>
+                        Използват се също AFM (C-AFM, KPFM), Raman, XPS/UPS, SSPG и други усъвършенствани методи.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section id="team" class="max-w-6xl mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Участници</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card">
+                    <div class="p-4">
+                        <div class="logo-container">
+                            <img src="SU_logo.png" alt="СУ Лого">
+                        </div>
+                        <h3 class="font-semibold">СУ „Св. Климент Охридски"</h3>
+                        <p>Ръководител: проф. дфзн Веселин Дончев</p>
+                        <p>Email: vtd@phys.uni-sofia.bg</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="p-4">
+                        <div class="logo-container">
+                            <img src="GeePs_logo.png" alt="GeePs Лого">
+                        </div>
+                        <h3 class="font-semibold">GeePs, CentraleSupelec (Франция)</h3>
+                        <p>Ръководител: Dr. José Alvarez</p>
+                        <p>Email: jose.alvarez@centralesupelec.fr</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="p-4">
+                        <div class="logo-container">
+                            <img src="FZU_logo.jpg" alt="Czech Academy Лого">
+                        </div>
+                        <h3 class="font-semibold">Institute of Physics, Czech Academy of Sciences</h3>
+                        <p>Ръководител: Dr. Ledinsky</p>
+                        <p>Email: ledinsky@fzu.cz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Packages -->
+        <section id="packages" class="max-w-6xl mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Работни пакети</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full border border-gray-300 text-sm bg-white">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="border p-2">Видове дейности</th>
+                            <th class="border p-2">Изпълнители</th>
+                            <th class="border p-2">Очаквани резултати</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 0. Управление и разпространение</strong><br/>
+                                0.1 Управление на проекта<br/>
+                                0.2 Разпространение на резултатите
+                            </td>
+                            <td class="border p-2">Всички</td>
+                            <td class="border p-2">
+                                - Междинен и окончателен отчет;<br/>
+                                - Интернет страница;<br/>
+                                - Участие в международни конференции;<br/>
+                                - Минимум 2 научни статии в списания с IF.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 1. Изготвяне на образци</strong><br/>
+                                1.1 Епитаксиални слоеве от III-V върху GaAs и c-Si<br/>
+                                1.2 Изготвяне на перовскитни филми
+                            </td>
+                            <td class="border p-2">
+                                Екипът от Франция<br/>
+                                Екипът от Чехия
+                            </td>
+                            <td class="border p-2">
+                                - III-V слоеве върху GaAs и c-Si;<br/>
+                                - P-N преходи върху GaAs и/или c-Si;<br/>
+                                - стабилни перовскитни структури.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 2. Повърхностно фотонапрежение (SPV)</strong><br/>
+                                2.1 SPV спектри<br/>
+                                2.2 SPV транзиенти<br/>
+                                2.3 Оценка на дифузионната дължина
+                            </td>
+                            <td class="border p-2">Екипът от България</td>
+                            <td class="border p-2">
+                                - Енергия на забранената зона;<br/>
+                                - Ход на енергетичните зони на повърхността и интерфейса;<br/>
+                                - Процеси на генерация, рекомбинация и транспорт на носители на заряд.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 3. Фототермична дефлекторна спектроскопия (PDS)</strong><br/>
+                                PDS абсорбционни спектри
+                            </td>
+                            <td class="border p-2">Екипът от Чехия</td>
+                            <td class="border p-2">
+                                - Спектър на оптична абсорбция;<br/>
+                                - Идентификация на дефекти.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 4. Фотолуминесценция (PL)</strong><br/>
+                                4.1 Модулирана PL<br/>
+                                4.2 Транзиентна PL<br/>
+                                4.3 Стационарна PL
+                            </td>
+                            <td class="border p-2">Екипът от Франция</td>
+                            <td class="border p-2">
+                                - Динамика на носителите;<br/>
+                                - Забранена зона;<br/>
+                                - Дефектни нива.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border p-2">
+                                <strong>РП 5. Сравнително характеризиране и моделиране</strong><br/>
+                                5.1. SPV/PL корелация;<br/>
+                                5.2. Сравнение на резултатите от PDS, SSPG, SPV;<br/>
+                                5.3. Сравнение на резултатите от Raman, XPS/UPS;<br/>
+                                5.4. C-AFM, KPFM
+                            </td>
+                            <td class="border p-2">Всички</td>
+                            <td class="border p-2">
+                                - По-добро разбиране на транспорта на носителите на заряд;<br/>
+                                - Информация за влияние на дефектите;<br/>
+                                - Корелация структура–свойства–стабилност.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Results -->
+        <section id="results" class="max-w-6xl mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Резултати</h2>
+            <div class="flex space-x-6 font-semibold mb-4">
+                <a href="#pubs" class="text-blue-600 hover:underline">Публикации</a>
+                <a href="#forums" class="text-blue-600 hover:underline">Участия в научни форуми</a>
+				<a href="#meetings" class="text-blue-600 hover:underline">Работни срещи</a>
+            </div>
+            <section id="pubs" class="mb-6">
+                <h3 class="text-xl font-semibold mb-2">Публикации</h3>
+                <ul class="list-disc ml-6 space-y-2">
+                    <li>Минимум 2 научни публикации в списания с IF.</li>
+                    <li>Планирани съвместни публикации между трите партньорски институции.</li>
+                </ul>
+            </section>
+			
+	        <section id="forums" class="mb-6">
+                <h3 class="text-xl font-semibold mb-2">Участия в научни форуми</h3>
+                <ul class="list-disc ml-6 space-y-2">
+                    <li> научен форум 1 </li>
+                    <li> научен форум 2</li>
+                </ul>
+            </section>
+
+            <section id="meetings" class="mb-6">
+                <h3 class="text-xl font-semibold mb-2">Работни срещи с партньори</h3>
+                <ul class="list-disc ml-6 space-y-2">
+                    <li>Годишни работни срещи между България, Франция и Чехия.</li>
+                    <li>Краткосрочни научни мобилности на докторанти и студенти.</li>
+                </ul>
+            </section>
+        </section>
+
+        <!-- News -->
+        <section id="news" class="max-w-6xl mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Новини</h2>
+            <p>Тук ще се публикуват новини за напредъка по проекта, конференции и мобилности.</p>
+        </section>
+
+        <footer class="bg-gray-900 text-white text-center p-6 mt-12">
+            <p>© 2025–2027 Софийски университет – Проект КП-06 Дунав/5</p>
+            <p>Финансиран от Фонд „Научни изследвания"</p>
+        </footer>
+
+    </div>
+</body>
+</html>
